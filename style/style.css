@@ -5,21 +5,21 @@
 
 @font-face {
     font-family: EduBurnerFont;
-    src: url('/assets/fonts/PlusJakartaSans-Regular.woff2');
+    src: url('assets/fonts/PlusJakartaSans-Regular.woff2');
 }
 
 @font-face {
     font-family: EduBurnerFontBold;
-    src: url('/assets/fonts/PlusJakartaSans-Bold.woff2');
+    src: url('assets/fonts/PlusJakartaSans-Bold.woff2');
 }
 
 @font-face {
     font-family: EduBurnerFontMed;
-    src: url('/assets/fonts/PlusJakartaSans-Medium.woff2');
+    src: url('assets/fonts/PlusJakartaSans-Medium.woff2');
 }
 
 body .wrap{
-    background-image: url('/assets/dark.png');
+    background-image: url('assets/dark.png');
     height: 100vh;
     background-position: top;
     background-size: cover;
