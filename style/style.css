@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: EduBurnerFont;
+    src: url('/assets/fonts/PlusJakartaSans-Regular.woff2');
+}
+
+@font-face {
+    font-family: EduBurnerFontBold;
+    src: url('/assets/fonts/PlusJakartaSans-Bold.woff2');
+}
+
+@font-face {
+    font-family: EduBurnerFontMed;
+    src: url('/assets/fonts/PlusJakartaSans-Medium.woff2');
+}
+
+body .wrap{
+    background-image: url('/assets/dark.png');
+    height: 100vh;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+body .wrap .nav-bar .links{
+    margin-right: 100px;
+    font-family: EduBurnerFontBold;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+body .wrap .nav-bar{
+    display: flex;
+    z-index: 3;
+    background-color: #11111026;
+    align-content: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 30px;
+    backdrop-filter: blur(5px);
+    border-bottom: 2px solid transparent;
+    box-shadow: 1px 1px 3px 1px #ffbf7f21;
+}
+
+body .wrap .nav-bar .links li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+body .wrap .nav-bar .links li a{
+    padding: 13px 10px;
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(231, 243, 238);
+    font-size: 17px;
+}
+
+body .wrap .nav-bar .logo img{
+    height: 25px;
+    margin-left: 100px;
+}
+
+body .wrap .nav-bar .links .separator{
+    background-color: rgba(255, 255, 255, 0.334);
+    width: 2px;
+    height: 20px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+body .wrap .nav-bar .links .join{
+    border-radius: 2px;
+    background-color: #FFC07F;
+    padding: 10px 23px;
+    color: #5a5958;
+    margin-left: 10px;
+    transition: 0.2s ease-in-out;
+}
+
+body .wrap .nav-bar .links .join:hover{
+    background-color: #FFC07F;
+    color: rgb(83, 75, 75);
+}
+
+body .wrap .nav-bar .links a:hover{
+    color: #FFC07F;
+}
+
+body .wrap .nav-bar .links a{
+    transition: 0.2s ease-in-out;
+}
+
+body .wrap .main .text h1{
+    font-family: EduBurnerFontMed;
+    font-size: 120px;
+    color: #ffffffcd;
+    margin-top: 300px;
+    margin-left: 100px;
+}
+
+body .wrap .main .text p{
+    font-family: EduBurnerFontBold;
+    font-size: 20px;
+    color: #fcfcfcc4;
+    margin-top: 3px;
+    margin-left: 100px;
+}
+
+body .wrap .main .text p span{
+    border-bottom: 2px solid #FFC07F;
+    padding: 4px;
+}
